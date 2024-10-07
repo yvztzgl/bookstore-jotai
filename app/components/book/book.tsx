@@ -22,7 +22,7 @@ export default function Book({ book }: { book: BookModel }) {
     }
 
     return <>
-        <div className="border p-[8px] flex flex-col gap-3 rounded relative shadow-md">
+        <div className="border p-[8px] flex h-full flex-col gap-3 rounded relative shadow-md">
             {
                 basketBook && <span className="bg-orange-400 absolute text-[12px] px-2 py-1 rounded-tr rounded-bl right-0 top-0 text-white">Sepette ({basketBook.quantity   })</span>
             }
